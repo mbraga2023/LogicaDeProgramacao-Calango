@@ -1,0 +1,48 @@
+algoritmo CalculoIR;
+// Síntese
+//  Objetivo:  Calcular o IR baseado na renda do declarante
+//  Entrada : Valor da renda
+//  Saída   : Valor do Imposto
+
+
+principal
+	// Declarações
+	real IR1, IR2, IR3, IR4, IR5, IR;
+	// Instruções
+	escreval ("Calculadora da faixa de Imposto de Renda");
+	escreva ("Digite o valor do seu rendimento anual R$ ");
+	leia (IR);
+	se (IR <= 22847.76) entao
+		IR1 = IR * 0;
+		escreva ("Sua aliquota é de 0%. O imposto devido é R$ ", IR1 :5:2);
+	senao
+	se (IR <= 33919.80) entao
+		IR2 =  IR * 0.075;
+		escreva ("Sua aliquota é de 7,5%. O imposto devido é R$ ", IR2 :5:2);
+	senao
+	se (IR <= 45012.60) entao
+		IR3 = IR * 0.15;
+		escreva ("Sua aliquota é de 15%. O imposto devido é R$ ", IR3:5:2);
+	
+	senao
+	se (IR <= 55976.16) entao
+		IR4 = IR * 0.225;
+		escreva ("Sua aliquota é de 22,5%. O imposto devido é R$ ", IR4:5:2);
+	
+	senao
+	
+	
+	se (IR > 55976.16) entao
+		IR5 = IR * 0.275;
+		escreva ("Sua aliquota é de 27,5%. O imposto devido é R$ ", IR5:5:2);
+	
+	senao
+	
+	fimSe
+	fimSe
+	fimSe
+	fimSe
+	fimSe
+	
+
+fimPrincipal

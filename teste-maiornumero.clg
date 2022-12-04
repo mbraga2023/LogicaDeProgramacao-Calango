@@ -1,0 +1,31 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	inteiro x1, x2, x3, maior;
+	
+	// Instruções
+	
+escreval( "O valor de x1 = ") ;
+leia(x1);
+escreval( "O valor de x2 = ") ;
+leia(x2);
+escreval( "O valor de x3 = ") ;
+leia(x3);
+
+se ((x1>x2) e (x1>x3)) entao
+maior = x1;
+senao se (x2> x3) entao
+maior=x2;
+senao 
+maior =x3;
+fimSe
+fimSe
+escreva("O maior numero é ", maior);
+
+fimPrincipal

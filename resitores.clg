@@ -1,0 +1,23 @@
+algoritmo resistores;
+// Síntese
+//  Objetivo:  calcular circuito 
+//  Entrada : valores de R1 e R2
+//  Saída   : resultado circuito Req
+
+
+principal
+	// Declarações
+	inteiro r1, r2, rtot;
+	
+	// Instruções
+	escreval ("Os resistores para o circuito em pararelo recebem os valores R1 e R2.");
+	escreval ("Segue a equação: RT = (R1 x R2) / (R1 + R2)");
+	escreva ("Digite o valor para R1 :");
+	leia (r1);
+	escreva ("Digite o valor para R2 :");
+	leia(r2);
+	rtot = (r1 * r2)/(r1 + r2);
+	escreva ("O resultado do circuito é igual a ", rtot);
+	
+	
+fimPrincipal

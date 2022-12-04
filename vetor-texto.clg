@@ -1,0 +1,23 @@
+algoritmo Senha;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	texto senha;
+	
+	// Instruções
+
+	escreva ("Digite a senha: ");
+	leia (senha);
+
+	se (comparaTexto(senha, "pipoca")==0) entao
+		escreva ("Senha correta");
+	senao
+		escreva ("senha incorreta!");
+	fimSe
+
+fimPrincipal

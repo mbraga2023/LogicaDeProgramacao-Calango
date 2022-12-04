@@ -1,0 +1,23 @@
+algoritmo PrimeiraLetra;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	texto frases;
+	inteiro letras;
+	caracter letra;
+	
+	// Instruções
+
+	escreva ("Digite uma frase: ");
+	leia (frases);
+	letras = tamanhoTexto (frases);
+	escreval ("Sua frase tem ", letras, " letras.");
+	letra = caracterTexto (frases, 0);
+	escreva ("A primeira letra da frase é ", letra, ".");
+	
+fimPrincipal

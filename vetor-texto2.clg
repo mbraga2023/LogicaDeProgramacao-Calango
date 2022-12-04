@@ -1,0 +1,19 @@
+algoritmo contadorDeLetras;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+	texto frases;
+	inteiro letras;
+	
+	// Instruções
+	escreva ("Digite uma frase: ");
+	leia (frases);
+	letras = tamanhoTexto (frases);
+	escreva ("Sua frase tem ", letras, " letras.");
+
+fimPrincipal

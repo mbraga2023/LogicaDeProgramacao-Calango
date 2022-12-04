@@ -1,0 +1,31 @@
+algoritmo flag;
+// Síntese
+//  Objetivo:  verificar se há Maria na turma
+//  Entrada : 5 nomes
+//  Saída   : mensagem se há  ou não
+
+
+principal
+	// Declarações
+	texto nome;
+	inteiro i;
+	logico flag;
+	
+	// Instruções
+
+	flag = falso;
+
+	para (i de 1 ate 5 passo 1) faca
+		escreva ("Informe o ", i, " nome: ");
+		leia (nome);
+		se (comparaTexto (nome, "Maria") == 0) entao
+			flag = verdadeiro;
+		fimSe
+	fimPara
+	se (flag == verdadeiro) entao
+		escreval ("Existe estudante chamada Maria na turma. ");
+	senao
+		escreval ("Não existe estudante chamada Maria na turma. ");
+	fimSe
+	
+fimPrincipal

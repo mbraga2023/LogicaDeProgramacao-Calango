@@ -1,0 +1,27 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:  
+//  Entrada :
+//  Saída   :
+
+
+principal
+	// Declarações
+inteiro a,b;
+
+escreva ("Entre com o valor de a: ");
+leia (a);
+
+escreva ("entre com o valor de B ");
+leia (b);
+
+a= a +b;
+b= a-b;
+a= a-b;
+
+escreval ("depois da operação o valor de a = ", a);
+escreval ("depois da operação o valor de b = ", b);
+
+	// Instruções
+
+fimPrincipal
